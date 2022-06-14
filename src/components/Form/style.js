@@ -1,4 +1,5 @@
 import React from "react";
+import reactDom from "react-dom";
 import {View, Text, StyleSheet} from "react-native";
 
 
@@ -48,6 +49,12 @@ const styles = StyleSheet.create({
     textButtonCalculator:{
         fontSize:20,
         color:"#ffffff"
+    },
+    errorMessage:{
+        fontSize:12,
+        color:'red',
+        fontWeight:"bold",
+        paddingLeft:20,
     }
 });
 
